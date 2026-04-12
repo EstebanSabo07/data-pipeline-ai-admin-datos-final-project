@@ -1,0 +1,69 @@
+# ============================================================
+# .gitignore — Pipeline de Datos con IA
+# Grupo 6 — LEAD University
+# ============================================================
+
+# --- Entorno virtual Python ---
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# --- Variables de entorno (contiene credenciales — NUNCA subir) ---
+.env
+*.env
+parte1_fuente_datos/config/.env
+parte2_etl/config/.env
+
+# --- Dataset Amazon Books (archivos grandes, descarga manual desde Kaggle) ---
+# https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews
+parte1_fuente_datos/data/raw/*.csv
+parte1_fuente_datos/data/raw/*.zip
+parte1_fuente_datos/data/raw/*.gz
+
+# --- Datos curados (generados por ETL) ---
+parte2_etl/data/curated/*.csv
+parte2_etl/data/curated/*.parquet
+
+# --- Logs y reportes (generados automáticamente) ---
+*.log
+parte1_fuente_datos/data/logs/
+parte1_fuente_datos/data/reports/
+parte2_etl/data/logs/
+parte3_orquestacion/logs/
+
+# --- Archivos comprimidos ---
+*.zip
+*.tar.gz
+*.rar
+
+# --- Jupyter Notebooks checkpoints ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+
+# --- Distribución / Build ---
+dist/
+build/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# --- Kaggle credentials ---
+kaggle.json
+
+# NOTA: Los archivos del modelo (parte4_app_ia/model/*.pkl)
+# SI se incluyen en el repo — son pequeños (<400 KB total)
