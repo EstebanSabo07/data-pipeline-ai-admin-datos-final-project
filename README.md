@@ -7,7 +7,6 @@
 **Grupo 6**
 - Ariana Víquez Solano
 - Esteban Gutiérrez Saborío
-- Marco Chinchilla Barrantes
 
 **Profesor:** Alejandro Zamora  
 **Entrega:** 14 de abril de 2026
