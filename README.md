@@ -4,9 +4,10 @@
 
 ---
 
-**Grupo 6 - Estudiantes que participaron en el desarrollo del proyecto**
+**Grupo 6 - Estudiantes**
 - Ariana Víquez Solano
 - Esteban Gutiérrez Saborío
+- Marco Chinchilla Barrantes
 
 **Profesor:** Alejandro Zamora  
 **Entrega:** 14 de abril de 2026
