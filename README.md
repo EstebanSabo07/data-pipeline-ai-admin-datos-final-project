@@ -4,7 +4,7 @@
 
 ---
 
-**Grupo 6**
+**Grupo 6 - Estudiantes que participaron en el desarrollo del proyecto**
 - Ariana Víquez Solano
 - Esteban Gutiérrez Saborío
 
