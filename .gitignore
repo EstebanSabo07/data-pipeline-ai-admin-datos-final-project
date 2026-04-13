@@ -67,3 +67,4 @@ kaggle.json
 
 # NOTA: Los archivos del modelo (parte4_app_ia/model/*.pkl)
 # SI se incluyen en el repo — son pequeños (<400 KB total)
+!parte3_orquestacion/logs/pipeline_20260413_013601.log
